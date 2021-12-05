@@ -7,22 +7,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   　
   <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/contact.css" />
   <title>dayjs</title>
 </head>
 
 <body>
   <header class="header">
-    <h1><a href="#">TECH</a></h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="nav" id="nav">ホーム</a></li>
-        <li><a href="service.html" class="nav" id="nav">事業内容</a></li>
-        <li><a href="news.html" class="nav" id="nav">ニュース</a></li>
-        <li><a href="blog.html" class="nav" id="nav">社員ブログ</a></li>
-        <li><a href="company.html" class="nav" id="nav">会社概要</a></li>
-        <li><a href="recruit.html" class="nav" id="nav">採用情報</a></li>
-        <li><a href="contact.html" class="nav" id="nav">お問い合わせ</a></li>
+    <h1 class="header-ttl">
+      <a href="index.html">
+        TECH
+      </a>
+    </h1>
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item"><a href="index.html">ホーム</a></li>
+        <li class="header-nav-item"><a href="service.html">事業内容</a></li>
+        <li class="header-nav-item"><a href="news.html">ニュース</a></li>
+        <li class="header-nav-item"><a href="blog.html">社員ブログ</a></li>
+        <li class="header-nav-item"><a href="company.html">会社概要</a></li>
+        <li class="header-nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="header-nav-item"><a href="contact.html">お問い合わせ</a></li>
       </ul>
     </nav>
   </header>
@@ -35,30 +39,35 @@
     </div>
     <form action="detail.html" method="get">
       <label>
-        会社名<br><input type="text" name="company" class="company__in">
+        <p>会社名</p><input type="text" name="company" class="company__in" style="width: 100%;">
       </label><br>
       <label>
-        メールアドレス<br><input type="email" name="email" class="email__in">
-      </label><br>
-      <label>
-        お問い合わせ<br><textarea name="textarea" id="textarea__in" cols="30" rows="10"></textarea>
+        <p>お名前<span>&#042</span></p><input type="text" name="name" class="name__in" style="width: 100%;">
       </label>
-      <input type="submit" value="お申し込み"　class="submit__in">
+      <label>
+        <p>メールアドレス<span>&#042</span></p><input type="email" name="email" class="email__in" style="width: 100%;">
+      </label><br>
+      <label>
+        <p>お問い合わせ<span>&#042</span></p><textarea name="textarea" id="textarea__in" cols="30" rows="10" style="width: 100%;"></textarea>
+      </label>
+      <div class="input"><a href="#">お申し込み</a></div>
     </form>
   </main>
   <footer>
-    <small>&copy 2020 TECH inc.</small>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="nav" id="nav">ホーム</a></li>
-        <li><a href="service.html" class="nav" id="nav">事業内容</a></li>
-        <li><a href="news.html" class="nav" id="nav">ニュース</a></li>
-        <li><a href="blog.html" class="nav" id="nav">社員ブログ</a></li>
-        <li><a href="company.html" class="nav" id="nav">会社概要</a></li>
-        <li><a href="recruit.html" class="nav" id="nav">採用情報</a></li>
-        <li><a href="contact.html" class="nav" id="nav">お問い合わせ</a></li>
-      </ul>
-    </nav>
-  
+    <div class="footer">
+      <small>&copy 2020 TECH inc.</small>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="nav" id="nav">ホーム</a></li>
+          <li><a href="service.html" class="nav" id="nav">事業内容</a></li>
+          <li><a href="news.html" class="nav" id="nav">ニュース</a></li>
+          <li><a href="blog.html" class="nav" id="nav">社員ブログ</a></li>
+          <li><a href="company.html" class="nav" id="nav">会社概要</a></li>
+          <li><a href="recruit.html" class="nav" id="nav">採用情報</a></li>
+          <li><a href="contact.html" class="nav" id="nav">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
   </footer>
+  <script src="js/main.js"></script>
 </body>

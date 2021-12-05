@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  height: 70px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 500;
+}
+.header-ttl {
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.header-nav-list {
+  display: flex;
+}
+.header-nav-item {
+  margin-right: 30px;
+}
+
+
+main {
+  padding: 90px 0 0 0;
+}
+.inquiry__img--card {
+  position: relative;
+}
+.img-1 img {
+  width: 100%;
+  height: 250px;
+}
+.inquiry__background {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+form {
+  width: 80%;
+  margin: 70px auto;
+}
+span {
+  color: red;
+}
+.company__in,.name__in,.email__in {
+  margin: 0 auto 20px;
+}
+p {
+  font-weight: bold;
+}
+.input {
+  text-align: center;
+  margin: 20px auto 0;
+  background-color: #000;
+  color: #fff;
+  width: 300px;
+  padding: 15px 0;
+  font-weight: bold;
+}
+a {
+  color: inherit;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 50px;
+  font-size: 12px;
+}
+nav ul {
+  display: flex;
+}
+li a {
+  color: inherit;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li :not(last-child) {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}

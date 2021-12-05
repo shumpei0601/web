@@ -27,14 +27,14 @@ a {
 main {
   padding: 90px 0 0 0;
 }
-.recruit__img--1 img {
+.company__img--1 img {
   width: 100%;
   height: 250px;
 }
-.recruit__background--card {
+.company__background--card {
   position: relative;
 }
-.recruit__background {
+.company__background {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -44,38 +44,13 @@ main {
   color: #fff;
 }
 
-main {
-  width: 75%;
+table {
+  width: 90%;
   margin: 100px auto;
 }
-.new__recruit--ttl {
-  font-size: 24px;
-  border-bottom: 1px solid #000;
-  line-height: 1.5;
-}
-.new__recruit--content {
-  margin: 10px 0;
-  line-height: 1.5;
-}
-.career__recruit--ttl {
-  font-size: 24px;
-  border-bottom: 1px solid #000;
-  line-height: 1.5;
-}
-.career__recruit--content {
-  margin: 10px 0;
-  line-height: 1.5;
-}
-table{
-  width: 100%;
-  margin: 0 0 50px 0;
-}
-th,td {
-  border: 1px solid #000;
-  padding: 15px ;
-}
-th {
-  background-color: #eeeeee;
+tr {
+  border-top: 1px solid #000;
+  line-height: 4;
 }
 
 .inquiry {

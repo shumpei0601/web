@@ -1,0 +1,132 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  height: 70px;
+  position: fixed;
+  background-color: #fff;
+  z-index: 500;
+}
+.header-ttl {
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.header-nav-list {
+  display: flex;
+}
+.header-nav-item {
+  margin-right: 30px;
+}
+
+
+main {
+  padding: 90px 0 0 0;
+}
+.mv__img img {
+  width: 100%;
+  height: 250px;
+}
+.blog__background {
+  position: relative;
+}
+.blog__employee--back {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.blog {
+  text-align: center;
+  width: 100%;
+}
+.blog__three--1{
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto 30px; 
+}
+.blog__img img {
+  width:
+   90%;
+}
+.blog__three--2 {
+   display: flex;
+  justify-content: space-around;
+  margin: 0 auto 30px; 
+}
+.blog__content {
+  
+}
+.blog__content--date {
+  margin: 10px 0 ;
+  font-size: 12px;
+}
+.blog__content--content {
+  font-weight: bold;
+}
+@media screen and (max-width:768px) {
+  .blog__three--1 {
+    display: block;
+  }
+}
+@media screen and (max-width:768px) {
+  .blog__three--2 {
+    display: block;
+  }
+}
+
+
+
+.inquiry {
+  width: 100%;
+  padding: 100px 0 50px;
+  margin: 100px 0 0;
+  text-align: center;
+  background-color: #eeeeee;
+  line-height: 2;
+}
+.inquiry__ttl {
+  font-size: 30px;
+  font-weight: bold;
+}
+.inquiry__btn {
+  background-color: red;
+  color: #fff;
+  margin: 30px 35%;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 0;
+}
+.inquiry__btn a {
+  color: inherit;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 50px;
+  font-size: 12px;
+}
+nav ul {
+  display: flex;
+}
+li a {
+  color: inherit;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li :not(last-child) {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
