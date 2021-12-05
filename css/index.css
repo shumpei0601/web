@@ -1,0 +1,295 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: bold;
+  height: 70px;
+}
+.header-ttl {
+  font-size: 24px;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.header-nav-list {
+  display: flex;
+}
+.header-nav-item {
+  margin-right: 30px;
+}
+
+.img-1 {
+  width: 100%;
+}
+.img-1 img {
+  width: 100%;
+}
+.wrap {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  line-height: 1.3;
+}
+.mv-ttl {
+  font-size: 40px;
+}
+.mv__sub--ttl {
+  text-align: center;
+}
+
+.thought {
+  background-color: #000;
+  color: #fff;
+}
+.thought--ttl{
+  font-size: 24px;
+  font-weight: bold;
+  background-color:#000;
+  color: #fff;
+  padding: 70px 8% 0;
+}
+.thought__sub--ttl{
+  background-color: #000;
+  color: #fff;
+  padding: 30px 8% 100px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.service--ttl {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin: 10% auto 5%;
+}
+.service__around {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sevice__card--1 {
+  width: 40%;
+  height: 40%;
+}
+.service__img--1 img {
+  width: 100%;
+}
+.service__card--2 {
+  width: 40%;
+  height: 40%;
+}
+.service__img--2 img {
+  width: 100%;
+}
+.service__around--2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.service__card--3 {
+  width: 40%;
+  height: 40%;
+}
+.service__img--3 img {
+  width: 100%;
+}
+.service__card--4 {
+  width: 40%;
+  height: 40%;
+}
+.service__img--4 img {
+  width: 100%;
+}
+@media screen and (max-width: 768px){
+  .sevice__card--1,.service__card--2,.service__card--3,.service__card--4 {
+    width: 90%;
+  }
+}
+.service__content--ttl {
+  margin: 2% 0 0;
+}
+.service__content {
+  margin: 2% 0;
+}
+.service__list {
+  display: inline;
+  background-color: red;
+  color: #fff;
+  padding: 2% 10%;
+  font-weight: bold;
+}
+.service__list--around {
+  margin: 5% auto;
+  text-align: center;
+}
+
+.news__flex {
+  display: flex;
+  justify-content: space-around;
+}
+.news {
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+  padding: 20px 0 ;
+}
+.news__list {
+  background-color: red;
+  color: white;
+  padding: 1%;
+}
+.news__list a {
+  color: inherit;
+}
+table {
+ margin: 0 auto;
+ width: 80%;
+ text-align: left;
+}
+.tr--1 {
+  background-color: #fff;
+  color: #000;
+  height: 50px; 
+  border: 4px solid #000;
+}
+.tr--2 {
+  background-color: #fff;
+  color: #000;
+  border: 4px solid #000;
+  height: 50px;
+}
+.tr--3 {
+  background-color: #fff;
+  color: #000;
+  border: 4px solid #000;
+  height: 50px;
+}
+td,th {
+  vertical-align: middle;
+}
+
+.employee__blog {
+  margin: 90px auto 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.flex__item {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.blog__card {
+  width: 90%;
+}
+.blog__img img {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .blog__card{
+  width: 45%;
+}
+}
+@media screen and (min-width: 1000px) {
+  .blog__card {
+    width: 30%;
+  }
+} 
+.blog__date {
+  margin: 5px 0;
+}
+.blog__ttl {
+  font-weight: 550;
+  font-size: 18px;
+}
+.blog__btn {
+  color: #fff;
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 35%;
+  font-weight: bold;
+}
+.blog__btn a {
+  color: inherit;
+}
+
+.information {
+  display: flex;
+  width: 100%;
+}
+.overview {
+  width: 50%;
+  padding: 120px 0;
+  background-color: red;
+  color:#fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+.recruit {
+  width: 50%;
+  padding: 120px 0;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.inquiry {
+  width: 100%;
+  padding: 100px 0 50px;
+  margin: 100px 0 0;
+  text-align: center;
+  background-color: #eeeeee;
+  line-height: 2;
+}
+.inquiry__ttl {
+  font-size: 30px;
+  font-weight: bold;
+}
+.inquiry__btn {
+  background-color: red;
+  color: #fff;
+  margin: 30px 35%;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 0;
+}
+.inquiry__btn a {
+  color: inherit;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 50px;
+  font-size: 12px;
+}
+nav ul {
+  display: flex;
+}
+li a {
+  color: inherit;
+}
+nav ul li {
+  margin-right: 20px;
+}
+nav ul li :not(last-child) {
+  border-right: 1px solid #fff;
+  padding-right: 10px;
+}
