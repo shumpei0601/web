@@ -154,6 +154,9 @@ main {
 .service__education:last-child {
   border-bottom: 1px solid #000
 }
+.service__education--content {
+  width: 100%;
+}
 .service__img--5
 {
   width: 30%;
@@ -229,10 +232,31 @@ li a {
 nav ul li {
   margin-right: 20px;
 }
-nav ul li :not(last-child) {
-  border-right: 1px solid #fff;
+.nav--2 ul li :not(last-child) {
+  
   padding-right: 10px;
 }
 .nav:hover {
   opacity: 0.5;
+}
+@media screen and (max-width:768px) {
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width:768px) {
+  .ul {
+    display: block;
+  }
+}
+@media screen and (max-width:768px) {
+  .nav {
+    line-height: 2;
+  }
+}
+@media screen and (min-width:768px) {
+  .nav--2 ul li {
+    border-right: 1px solid #fff;
+  }
 }

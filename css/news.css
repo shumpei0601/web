@@ -236,10 +236,30 @@ li a {
 nav ul li {
   margin-right: 20px;
 }
-nav ul li :not(last-child) {
-  border-right: 1px solid #fff;
+.nav--2 ul li :not(last-child) {
   padding-right: 10px;
 }
 .nav:hover {
   opacity: 0.5;
+}
+@media screen and (max-width:768px) {
+  .footer {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width:768px) {
+  .ul {
+    display: block;
+  }
+}
+@media screen and (max-width:768px) {
+  .nav {
+    line-height: 2;
+  }
+}
+@media screen and (min-width:768px) {
+  .nav--2 ul li {
+    border-right: 1px solid #fff;
+  }
 }
