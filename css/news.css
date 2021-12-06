@@ -52,21 +52,6 @@ main {
   background-color: #eeeeee;
   line-height: 2;
 }
-.inquiry__ttl {
-  font-size: 30px;
-  font-weight: bold;
-}
-.inquiry__btn {
-  background-color: red;
-  color: #fff;
-  margin: 30px 35%;
-  font-weight: bold;
-  font-size: 16px;
-  padding: 5px 0;
-}
-.inquiry__btn a {
-  color: inherit;
-}
 
 .news__history {
   width: 90%;
@@ -79,12 +64,18 @@ main {
   font-size: 14px;
   padding: 0 10px;
 }
+.news__history--1:hover {
+  opacity: 0.5;
+}
 .news__history--2 {
   border: 1px solid #000;
   margin: 0 0 10px 0;
   line-height: 3;
   font-size: 14px;
   padding: 0 10px;
+}
+.news__history--2:hover {
+  opacity: 0.5;
 }
 .news__history--3 {
   border: 1px solid #000;
@@ -93,11 +84,39 @@ main {
   font-size: 14px;
   padding: 0 10px;
 }
+.news__history--3:hover {
+  opacity: 0.5;
+}
 span {
   font-weight: bold;
 }
 
-
+.inquiry {
+  width: 100%;
+  padding: 100px 0 50px;
+  margin: 100px 0 0;
+  text-align: center;
+  background-color: #eeeeee;
+  line-height: 2;
+}
+.inquiry__ttl {
+  font-size: 30px;
+  font-weight: bold;
+}
+.inquiry__btn {
+  background-color: red;
+  color: #fff;
+  margin: 30px 35%;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 0;
+}
+.inquiry__btn:hover {
+  opacity: 0.5;
+}
+.inquiry__btn a {
+  color: inherit;
+}
 
 .footer {
   display: flex;
@@ -119,4 +138,7 @@ nav ul li {
 nav ul li :not(last-child) {
   border-right: 1px solid #fff;
   padding-right: 10px;
+}
+.nav:hover {
+  opacity: 0.5;
 }

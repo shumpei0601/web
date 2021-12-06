@@ -13,6 +13,7 @@
 
 <body>
   <header class="header">
+   <div class="header--2">
     <h1 class="header-ttl">
       <a href="index.html">
         TECH
@@ -29,6 +30,7 @@
         <li class="header-nav-item"><a href="contact.html">お問い合わせ</a></li>
       </ul>
     </nav>
+    </div>
     <div class="menu" id="menu">
       <span class="menu__line--top"></span>
       <span class="menu__line--middle"></span>
@@ -36,10 +38,7 @@
     </div>
   </header>
   <main>
-   <div class="wrap">
-    <div class="img-1">
-      <img src="./img/mv.png" alt="">
-    </div>
+   <div class="mv">
     <div class="absolute">
       <h2 class="mv-ttl">最新テクノロジーで社会課題を解決</h2>
       <h3 class="mv__sub--ttl">Solving social issues with the lastest technology</h3>
@@ -84,80 +83,63 @@
       </div>
      </div> 
      <div class="service__list--around">
-　　  <div       class="service__list">サービス一覧を見る</div>
+　　  <div       class="service__list"><a href="service.html">サービス一覧を見る</a></div>
      </div>
     <div class="news">
      <div class="news__flex">
       <h2 class="news__ttl">ニュース</h2>
       <p class="news__list"><a href="index.html">ニュース一覧を見る</a></p>
      </div> 
-      <table>
-        <tr class="tr--1">
-          <a href="index.html">
-          <th>2019/07/17</th>
-          <td>会社を創業しました。</td>
-          </a>
-        </tr>
-        <tr class="tr--2">
-          <a href="index.html">
-          <th>2020/04/01</th>
-          <td>資金調達を行いました。</td>
-          </a>
-        </tr>
-        <tr class="tr--3">
-          <a href="index.html">
-          <th>2020/10/01</th>
-          <td>東京新聞に掲載されました。</td>
-          </a>
-        </tr>
-      </table>
+     <p class="news__company"><a href="index.html">2019/07/17 <span>会社を創業しました。</span></a></p>
+     <p class="news__company"><a href="index.html">2020/04/01 <span>資金調達を行いました。</span></a></p>
+     <p class="news__company"><a href="index.html">2020/10/01 <span>東京新聞に掲載されました。</span></a></p>
     </div>
     <h2 class="employee__blog">社員ブログ</h2>
     <div class="flex__item wrap">
       <div class="blog__card">
-        <div class="blog__img">
-          <img src="./img/blog.png" alt="">
+        <div class="blog__img"><a href="index.html">
+          <img src="./img/blog.png" alt=""></a>
         </div>
         <div class="blog__card--content">
           <div class="blog__date">2019/07/17</div>
-          <div class="blog__ttl">会社を創業した理由</div>
+          <div class="blog__ttl"><a href="index.html">会社を創業した理由</a></div>
         </div>
       </div>
       <div class="blog__card">
-        <div class="blog__img">
-          <img src="./img/blog.png" alt="">
+        <div class="blog__img"><a href="index.html">
+          <img src="./img/blog.png" alt=""></a>
         </div>
         <div class="blog__card--content">
           <div class="blog__date">2019/11/11</div>
-          <div class="blog__ttl">ITエンジニアを育成するメソッド</div>
+          <div class="blog__ttl"><a href="index.html">ITエンジニアを育成するメソッド</a></div>
         </div>
       </div>
       <div class="blog__card">
-        <div class="blog__img">
-          <img src="./img/blog.png" alt="">
+        <div class="blog__img"><a href="index.html">
+          <img src="./img/blog.png" alt=""></a>
         </div>
         <div class="blog__card--content">
           <div class="blog__date">2020/08/01</div>
-          <div class="blog__ttl">コーチングによるモチベーション向上理論</div>
+          <div class="blog__ttl"><a href="index.html">コーチングによるモチベーション向上理論</a></div>
         </div>
       </div>
     </div>
     <div class="blog__btn"><a href="blog.html">社員ブログ一覧を見る</a></div>
     <div class="information">
-      <div class="overview">会社概要</div>
-      <div class="recruit">採用情報</div>
+      <div class="overview"><a href="company.html">会社概要</a></div>
+      <div class="recruit"><a href="recruit.html">採用情報</a></div>
     </div>
     <div class="inquiry">
       <h2 class="inquiry__ttl">お問い合わせ</h2>
       <p class="inquiry__content">お仕事のご依頼や採用に関してはお問い合わせにて承っております。</p>
-      <div class="inquiry__btn"><a href="index.html">お問い合わせ</a></div>
+      <div class="inquiry__btn"><a href="contact.html">お問い合わせ</a></div>
     </div>
   </main>
   <footer>
    <div class="footer">
     <small>&copy 2020 TECH inc.</small>
-    <nav>
-      <ul>
+    <nav class="nav--2">
+      <ul class="nav__ul">
         <li><a href="index.html" class="nav" id="nav">ホーム</a></li>
         <li><a href="service.html" class="nav" id="nav">事業内容</a></li>
         <li><a href="news.html" class="nav" id="nav">ニュース</a></li>
@@ -170,7 +152,7 @@
    </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="css/js/main.js"></script>
 </body>
 
 </html>
